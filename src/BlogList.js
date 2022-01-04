@@ -1,4 +1,4 @@
-const BlogList = ({blogs, title, deleteBlog}) => {
+const BlogList = ({blogs, title}) => {
   return ( 
       <div className="blog-list">
           <h2>{ title }</h2>
@@ -11,6 +11,5 @@ const BlogList = ({blogs, title, deleteBlog}) => {
       </div>
     );
 }
-
 
 export default BlogList;
