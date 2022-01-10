@@ -51,3 +51,6 @@
   color: blueviolet;
   margin-bottom: 8px;
 }
+.blog-preview a {
+  text-decoration: none;
+}
