@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+// import BlogDetails from './BlogDetails';
 
 const useFetch = (url) => {
   const [data, setData] = useState(null);
@@ -36,7 +37,7 @@ const useFetch = (url) => {
     return () => abortCont.abort();
   }, [url])
 
-  return { data, isPending, error };
+  return {data, error, isPending};
 }
  
 export default useFetch;
